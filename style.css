@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    position: relative;
+    font-family: "StratosSkyeng", sans-serif;
+    background-image: url(/img/Фон.png);
+    /* margin-top: 231px;
+    margin-left: 556px; */
+}
+
+
+.History {
+    position: absolute;
+    width: 243px;
+    height: 50px;
+    border-radius: 22px;
+    border: 2px solid white;
+    margin-top: 60px;
+    margin-left: 839px;
+    cursor: pointer;
+    background-color: rgba(28,28,28,0)
+}
+
+.HistoryText {
+    font-family: "StratosSkyeng", sans-serif;
+    color: white;
+    font-size: 24px;
+}
+
+.NewsText {
+    font-family: "StratosSkyeng", sans-serif;
+    color: white;
+    font-size: 24px;
+}
+
+.PhotoText {
+    font-family: "StratosSkyeng", sans-serif;
+    color: white;
+    font-size: 24px;
+}
+
+.IntroductionText {
+    font-family: "StratosSkyeng", sans-serif;
+    color: white;
+    font-size: 24px;
+}
+
+.TechnologiesText {
+    font-family: "StratosSkyeng", sans-serif;
+    color: white;
+    font-size: 24px;
+}
+
+/* .Astr {
+    font-family: "StratosSkyeng", sans-serif;
+    color: white;
+    font-size: 128px;
+    position: absolute;
+    -webkit-letter-spacing: 25%;
+    width: 1014px;
+    height: 161px;
+    margin-top: 820px;
+    margin-left: 453px;
+} */
+
+.Astr {
+    font-family: "StratosSkyeng", sans-serif;
+    color: white;
+    font-size: 110px;
+    position: absolute;
+    letter-spacing: 25px;
+    margin-top: 820px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.News {
+    position: absolute;
+    width: 243px;
+    height: 50px;
+    border-radius: 22px;
+    border: 2px solid white;
+    margin-top: 60px;
+    margin-left: 566px;
+    cursor: pointer;
+    background-color: rgba(28,28,28,0)
+}
+
+.Photo {
+    position: absolute;
+    width: 243px;
+    height: 50px;
+    border-radius: 22px;
+    border: 2px solid white;
+    margin-top: 60px;
+    margin-left: 1112px;
+    cursor: pointer;
+    background-color: rgba(28,28,28,0)
+}
+
+.Introduction {
+    position: absolute;
+    width: 243px;
+    height: 50px;
+    border-radius: 22px;
+    border: 2px solid white;
+    margin-top: 60px;
+    margin-left: 293px;
+    cursor: pointer;
+    background-color: rgba(28,28,28,0)
+}
+
+.Technologies {
+    position: absolute;
+    width: 243px;
+    height: 50px;
+    border-radius: 22px;
+    border: 2px solid white;
+    margin-top: 60px;
+    margin-left: 1385px;
+    cursor: pointer;
+    background-color: rgba(28,28,28,0)
+}
+
+.History:hover {
+    background-color: #F1D4B7;
+    border: 2px solid black;
+}
+
+.History:hover .HistoryText {
+    color: black;
+}
+
+.News:hover {
+    background-color: #F1D4B7;
+    border: 2px solid black;
+}
+
+.News:hover .NewsText {
+    color: black;
+}
+
+.Photo:hover {
+    background-color: #F1D4B7;
+    border: 2px solid black;
+}
+
+.Photo:hover .PhotoText {
+    color: black;
+}
+
+.Introduction:hover {
+    background-color: #F1D4B7;
+    border: 2px solid black;
+}
+
+.Introduction:hover .IntroductionText {
+    color: black;
+}
+
+.Technologies:hover {
+    background-color: #F1D4B7;
+    border: 2px solid black;
+}
+
+.Technologies:hover .TechnologiesText {
+    color: black;
+}
+
+.card__button {
+    margin-top: 20px;
+    margin-left: 30px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: #F99417;
+    padding: 9px 26px;
+    /* Это чтобы при наведении на кнопку курсор мыши менялся на руку */
+    cursor: pointer;
+}
+
+/* Эффект наведения курсора мыши на элемент с классом card__button */
+.card__button:hover {
+    /* Прозрачность всего элемента  - такое значение говорит браузеру показывать только 70% элемента по прозрачности */
+    opacity: .7;
+}
+
+.icon {
+    width: 20px;
+    color: #363062;
+}
+
